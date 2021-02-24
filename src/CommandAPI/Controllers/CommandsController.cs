@@ -12,6 +12,8 @@ namespace CommandAPI.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
+        // Random comment to trigger pipeline.
+
         private readonly ICommandAPIRepo repository;
         private readonly IMapper mapper;
 
